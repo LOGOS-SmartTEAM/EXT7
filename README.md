@@ -18,12 +18,13 @@ y `PANTALLAS` solo incluye un subconjunto de bloques.
 
 | Subcategoría | Bloques incluidos |
 |--------------|--------------------|
-| SENSORES     | Botón, Sensor de Suelo, Potenciómetro, Sensor de Luz, Ultrasonido, DHT11 |
+| SENSORES     | Botón, Sensor de Suelo, Potenciómetro, Sensor de Luz, Ultrasonido, DHT11, Sensor de Color (desplegable con emoji por color), Seguidor de líneas (lectura por lado) |
 | SALIDAS      | LED (Estado), LED (Intensidad), Tira RGB, Tira RGB (ajustada R/G/B), Tira RGB (apagar todos) |
 | MOVIMIENTO   | Movimiento simple, Movimiento por cm, Girar |
 | MOTORES      | Servo, Hélice, Motor multicolor |
 | PANTALLAS    | OLED (Escribir), OLED (borrar) |
 
-No incluye: Sensor de color, Joystick, Seguidor de línea/Sensor de grises,
-LCD, Cantidad (VARIABLES), Mensaje Morse (ESPECIAL), comparadores booleanos
-de Botón y Ultrasonido.
+No incluye: Joystick, Sensor de grises, LCD, Cantidad (VARIABLES),
+Mensaje Morse (ESPECIAL), comparadores booleanos de Botón y Ultrasonido,
+ni el bloque "Leer brillo" del sensor de color (placeholder gris en
+STV2-PADRE).
